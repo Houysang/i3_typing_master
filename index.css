@@ -1,26 +1,30 @@
+/* Reset default list styles and padding */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 10px 20px;
+    padding: 0;
     margin: 0;
-
-    background-color: white;
-    border-bottom: 2px solid #15d2ef;
+    display: flex;
+    gap: 20px;
+    /* space between items */
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #1ecbe9;
+    /* pink underline */
+    padding: 10px 20px;
 }
 
 nav ul li {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 600;
-    color: black;
+    color: #333;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 8px 12px;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li:hover {
-    background-color: #15d2ef;
+    background-color: #1ecbe9;
     color: white;
 }
