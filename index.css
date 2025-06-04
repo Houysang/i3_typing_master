@@ -1,0 +1,26 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;
+    margin: 0;
+
+    background-color: white;
+    border-bottom: 2px solid #15d2ef;
+}
+
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li:hover {
+    background-color: #15d2ef;
+    color: white;
+}
